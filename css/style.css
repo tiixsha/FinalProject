@@ -1,0 +1,261 @@
+*
+{
+    margin:0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+.container{
+    width:80%;
+    display: block;
+    
+}
+.clear{
+    clear: both;
+    display: block;
+}
+header{
+    padding: 20px 0;
+}
+header h1{
+font-family:'poppins';
+font-size: 40px;
+color:#273B3A;
+}
+nav{
+    background-color: #BB6765;
+}
+.menu{
+    padding: 15px 0;
+}
+.menu a{
+    color:whitesmoke;
+    font-family: 'poppins';
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    padding: 0 20px;
+}
+.menu a:first-child{
+    padding-left: 0;
+}
+.menu a:hover{
+    color: #273B3A;
+}
+#banner{}
+#banner img{
+    width: 100%;
+}
+.info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    background-color: #273B3A;
+    color:whitesmoke;
+    padding:30px 100px;
+    opacity: 0.6;
+    font-family: 'poppins';
+    text-align: center;
+    font-size: large;
+}
+.info h2{
+    font-family: 'poppins';
+    font-size: 50px;
+}
+.info h{
+    font-family:'poppins';
+    font-size: 58px;
+}
+#feature{
+    padding:30px 0;
+    text-align:center;
+}
+#feature h3{
+    font-family:'poppins';
+    display: inline-block;
+    color: #273B3A;
+    font-size: 38px;
+    text-align: center;
+}
+.boxes{
+    padding: 30px;
+    display:flex;
+}
+.box{
+    width: 30%;
+    position: relative;
+}
+.box img{
+    width:100%;
+    height:400px;
+}
+.box h4{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    background-color:black;
+    width: 100%;
+    padding: 20px 0;
+    opacity: 0.8;
+}
+.box h4 a{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-size: 24 px;
+    font-family:'poppins';
+}
+.box h4 a:hover{
+    color: #E5969C;
+}
+#newsletter{
+    padding: 100px,0;
+    background-image:url(/images/pexels-eric-sanman-5111271.jpg)
+}
+#newsletter form{
+    display: block;
+    text-align: center;
+}
+#newsletter input[type=text]{
+    padding: 5px;
+    width: 250px;
+    border:#324F4D;
+    outline: none;
+    font-family:'poppins';
+}
+#newsletter input[type=submit]{
+    padding: 5px;
+    background-color:burlywood;
+    border:none;
+    cursor: pointer;
+    color:black;
+}
+#newsletter h5{
+    color: #273B3A;
+    font-size: 24px;
+    font-family: 'poppins';
+    padding-bottom: 10px;
+
+}
+footer{
+    padding:30px;
+}
+.fboxes{
+    display: flex;
+}
+.fbox{
+    width:23%;
+}
+.fbox h6{
+    font-size: 18px;
+    font-family:'poppins';
+    padding-bottom: 10px;
+    color:black;
+}
+.fbox ul{
+    list-style: none;
+}
+.fbox ul li{
+    border-bottom: 1px dotted black;
+    padding: 5px 0;
+}
+.fbox ul li a{
+    text-decoration: none;
+    font-family:'poppins';
+    font-size: 16px;
+}
+#content{
+    padding:30px 0;
+}
+#content h2{
+    font-family: 'poppins';
+    font-size: 30px;
+    color:#273B3A;
+    margin-bottom: 10px;
+}
+.Days{
+    background-color: #E5969C;
+    color:black;
+    padding: 10px;
+    font-family: 'poppins';
+    font-size: 16px;
+}
+.Medium{
+    background-color: #E5969C;
+    color:black;
+    padding: 10px;
+    font-family: 'poppins';
+    font-size: 16px;
+}
+.Nature{
+    background-color: #E5969C;
+    color:black;
+    padding: 10px;
+    font-family: 'poppins';
+    font-size: 16px;
+}
+.Itinerary{
+    width: 60%;
+
+}
+#content img{
+    text-align:left;
+    display: block;
+    margin: 20px 0;
+    width:100%;
+}
+     .Itinerary h4{
+         font-family: 'poppins';
+         font-size: 20px;
+         padding: 10px 0;
+     }
+     .Itinerary p{
+         font-family: 'poppins';
+         font-size: 16px;
+     }
+     .book{
+         background-color: #324F4D;
+         color: white;
+         padding:10px 20px;
+         font-family:'poppins';
+         font-size: 16px;
+         display: inline-block;
+         text-decoration: none;
+     }
+.contact_boxes{
+    display: flex;
+}
+.map,.form{
+    width:50%;
+}
+.form{
+    padding: 0 20px;
+}
+.form h4{
+    font-family: 'poppins';
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.form label{
+    display: block;
+    margin:5px 0;
+   font-family:'poppins';
+    font-size: 15px;
+}
+.form input{
+    padding: 10px;
+    width: 100%;
+}
+.form textarea{
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+}
+.form input[type=submit]{
+    padding: 10px 20px;
+    width: 100px;
+    margin-top: 10px;
+}
